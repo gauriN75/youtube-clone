@@ -9,14 +9,14 @@ function Sidebar() {
           <SidebarRow Icon={<i className="fas fa-fire"></i>} title="Trending"/> 
           <SidebarRow Icon={<i className="fas fa-bell"></i>} title="Subscription"/>
 
-          <hr />
+          <hr/>
 
-          <Sidebar Icon={<i className="fas fa-books-medical"></i>} title="Library"/>
-          <Sidebar Icon={<i className="fas fa-history"></i>} title="History"/>
-          <Sidebar Icon={<i className="far fa-camcorder"></i>} title="Your videos"/>
-          <Sidebar Icon={<i className="fas fa-clock"></i>} title="Watch Later"/>
-          <Sidebar Icon={<i className="fas fa-thumbs-up"></i>} title="Liked videos"/>
-          <Sidebar Icon={<i className="fad fa-caret-down"></i>} title="Show more"/>
+          <SidebarRow Icon={<i className="fas fa-photo-video"></i>} title="Library"/>
+          <SidebarRow Icon={<i className="fas fa-history"></i>} title="History"/>
+          <SidebarRow Icon={<i className="fas fa-camera"></i>} title="Your videos"/>
+          <SidebarRow Icon={<i className="fas fa-clock"></i>} title="Watch Later"/>
+          <SidebarRow Icon={<i className="fas fa-thumbs-up"></i>} title="Liked videos"/>
+          <SidebarRow Icon={<i className="fas fa-caret-down"></i>} title="Show more"/>
 
           <hr/>
 
