@@ -3,6 +3,10 @@
       align-items: center;
       justify-content: space-between;
       padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: white;
 }
 
 .header__logo{
@@ -17,6 +21,14 @@
       padding: 4px;
       width: 40%;
       border: 1px solid lightgray;
+}
+
+.header__left{
+      display: flex;
+}
+
+.header__bar{
+      margin-top: 2px;
 }
 
 .header__icon{
