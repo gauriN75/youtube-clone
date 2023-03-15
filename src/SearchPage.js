@@ -1,6 +1,7 @@
 import React from 'react'
 import './SearchPage.css'
 import ChannelRow from './ChannelRow'
+import VideoRow from './VideoRow'
 
 function SearchPage() {
   return (
@@ -22,7 +23,35 @@ function SearchPage() {
 
             <hr />
 
-            <VideoRow/>
+            <VideoRow
+              title="Python Tutorial For Beginners In Hindi (With Notes) 🔥"
+              views="19,916,459 views"
+              subs="456K"
+              description="Programming videos"
+              timestamp="sep24, 2020"
+              channel="CodeWithHarry"
+              image="https://i.ytimg.com/vi/gfDE2a7MKjA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtJ2JwWHPIxoLaONsyI-041XMjCA"
+            />
+
+            <VideoRow
+              title="Python Tutorial For Beginners In Hindi (With Notes) 🔥"
+              views="19,916,459 views"
+              subs="456K"
+              description="Programming videos"
+              timestamp="sep24, 2020"
+              channel="CodeWithHarry"
+              image="https://i.ytimg.com/vi/gfDE2a7MKjA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtJ2JwWHPIxoLaONsyI-041XMjCA"
+            />
+
+            <VideoRow
+              title="Python Tutorial For Beginners In Hindi (With Notes) 🔥"
+              views="19,916,459 views"
+              subs="456K"
+              description="Programming videos"
+              timestamp="sep24, 2020"
+              channel="CodeWithHarry"
+              image="https://i.ytimg.com/vi/gfDE2a7MKjA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtJ2JwWHPIxoLaONsyI-041XMjCA"
+            />
     </div>
   )
 }
